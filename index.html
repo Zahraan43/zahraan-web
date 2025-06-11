@@ -3,93 +3,79 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Jasa Pembuatan Website UMKM | Zahraan</title>
+  <title>Portofolio Zahraan</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
 </head>
-<body class="bg-light text-center">
+<body class="text-center py-5">
 
-  <!-- HEADER -->
-  <header class="bg-dark text-white py-4 mb-4">
-    <h1>Jasa Pembuatan Website UMKM</h1>
-    <p class="lead">Cepat, Murah, dan Profesional – Mulai dari Rp150.000</p>
-  </header>
+  <!-- Foto Profil -->
+  <img src="foto.jpg" alt="Foto Saya" width="200" style="border-radius: 10px;">
 
-  <!-- FOTO PROFIL -->
-  <img src="foto.jpg" alt="Foto Saya" width="200" style="border-radius: 10px;" class="mb-3">
+  <!-- Judul dan Deskripsi -->
+  <h1>Halo, Saya Zahraan</h1>
+  <p class="mb-4">Saya pembuat website sederhana untuk UMKM dan bisnis lokal. Website cepat, murah, dan responsif!</p>
 
-  <!-- DESKRIPSI SINGKAT -->
-  <h2>Halo, Saya Zahraan</h2>
-  <p class="mb-4">Saya membuat website sederhana untuk UMKM dan bisnis lokal. Website cepat, murah, dan responsif!</p>
+  <!-- Layanan -->
+  <h3>Layanan Saya</h3>
+  <ul class="list-group w-75 mx-auto mb-4">
+    <li class="list-group-item">Website Warung Makan</li>
+    <li class="list-group-item">Toko Online Sederhana</li>
+    <li class="list-group-item">Landing Page Produk</li>
+  </ul>
 
-  <!-- PAKET HARGA -->
-  <h3 class="mb-3">Paket Layanan</h3>
+  <!-- Daftar Harga -->
+  <h4>Harga Paket</h4>
   <div class="container mb-4">
-    <div class="row justify-content-center">
-      <div class="col-md-3">
-        <div class="card mb-3">
-          <div class="card-header bg-success text-white">Paket Basic</div>
-          <div class="card-body">
-            <p>✔ 1 Halaman Website</p>
-            <p>✔ Tombol WhatsApp</p>
-            <p><strong>Rp150.000</strong></p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <div class="card mb-3">
-          <div class="card-header bg-warning">Paket Standar</div>
-          <div class="card-body">
-            <p>✔ 1 Halaman</p>
-            <p>✔ Galeri & Testimoni</p>
-            <p><strong>Rp250.000</strong></p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <div class="card mb-3">
-          <div class="card-header bg-primary text-white">Paket Premium</div>
-          <div class="card-body">
-            <p>✔ Multi-Halaman</p>
-            <p>✔ SEO & Kontak Form</p>
-            <p><strong>Rp400.000</strong></p>
-          </div>
-        </div>
-      </div>
-    </div>
+    <table class="table table-bordered w-75 mx-auto">
+      <thead class="table-light">
+        <tr>
+          <th>Paket</th>
+          <th>Fitur</th>
+          <th>Harga</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Basic</td>
+          <td>Landing Page sederhana</td>
+          <td>Rp100.000</td>
+        </tr>
+        <tr>
+          <td>Standar</td>
+          <td>Landing Page + Form WhatsApp</td>
+          <td>Rp150.000</td>
+        </tr>
+        <tr>
+          <td>Premium</td>
+          <td>Website + Beberapa Halaman + WA + SEO Dasar</td>
+          <td>Rp250.000</td>
+        </tr>
+      </tbody>
+    </table>
   </div>
 
-  <!-- GALERI CONTOH -->
+  <!-- Contoh Proyek -->
   <h4 class="mb-3">Contoh Website</h4>
   <div class="container d-flex flex-wrap justify-content-center gap-3 mb-4">
     <a href="https://zahraan43.github.io/zahraan-web/" target="_blank">
-      <img src="https://via.placeholder.com/250x150" alt="Contoh 1" class="img-thumbnail">
-    </a>
-    <a href="https://zahraan43.github.io/zahraan-web/" target="_blank">
-      <img src="https://via.placeholder.com/250x150" alt="Contoh 2" class="img-thumbnail">
+      <img src="screenshot-1.jpg" alt="Contoh Website" class="img-thumbnail" width="250" height="150">
     </a>
   </div>
 
-  <!-- TESTIMONI -->
-  <h4>Testimoni Klien</h4>
+  <!-- Testimoni -->
+  <h4>Testimoni</h4>
   <blockquote class="blockquote w-75 mx-auto mb-4">
-    <p>"Web dari Zahraan sangat membantu usaha saya dikenal online!"</p>
-    <footer class="blockquote-footer">Bu Sari, Warung Sederhana</footer>
-  </blockquote>
-  <blockquote class="blockquote w-75 mx-auto mb-4">
-    <p>"Pelayanannya cepat, saya tinggal kirim data dan langsung jadi!"</p>
-    <footer class="blockquote-footer">Pak Dedi, Toko Kelontong</footer>
+    <p>"Website dari Zahraan sangat membantu usaha saya jadi lebih dikenal online!"</p>
+    <footer class="blockquote-footer">Bu Sari, pemilik Warung Sederhana</footer>
   </blockquote>
 
-  <!-- TOMBOL WHATSAPP -->
-  <a href="https://wa.me/6282159604601" class="btn btn-success btn-lg mb-5 d-inline-flex align-items-center gap-2" target="_blank">
-    <img src="https://img.icons8.com/ios-filled/24/ffffff/whatsapp.png" alt="WhatsApp"/>
-    Hubungi via WhatsApp
+  <!-- Tombol WhatsApp -->
+  <a href="https://wa.me/6282159604601" class="btn btn-success btn-lg" target="_blank">
+    Pesan via WhatsApp
   </a>
 
-  <!-- FOOTER -->
-  <footer class="text-muted mt-5 mb-3">
-    © 2025 Zahraan Web | Dibuat dengan ❤
-  </footer>
+  <!-- Footer -->
+  <p class="mt-5 text-muted">© 2025 Zahraan Web</p>
 
 </body>
 </html>
