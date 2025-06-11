@@ -118,6 +118,20 @@
   <footer class="text-center mt-5 text-muted fade-in">
     <p>© 2025 Zahraan Web</p>
   </footer>
+<script>
+  document.getElementById("kontakForm").addEventListener("submit", function(e) {
+    e.preventDefault();
+    var nama = document.getElementById("nama").value;
+    var pesan = document.getElementById("pesan").value;
+    var nomorWA = "6282159604601"; // Ganti dengan nomor WA kamu
+
+    var url = "https://wa.me/" + nomorWA + "?text=" + encodeURIComponent(
+      "Halo, saya " + nama + ". " + pesan
+    );
+
+    window.open(url, '_blank');
+  });
+</script>
 
 </body>
 </html>
